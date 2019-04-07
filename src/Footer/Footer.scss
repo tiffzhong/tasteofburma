@@ -1,0 +1,41 @@
+footer {
+  color: white;
+  background-color: grey;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  div {
+    // padding-left: 20px;
+    width: 90%;
+  }
+  .footer-links-container {
+    display: flex;
+    // width: 500px;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding: 15px 0;
+    border-bottom: 1px solid black;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+  .address-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px 0;
+    line-height: 1.5em;
+    h5 {
+      font-size: 25px;
+      font-family: "Paytone One", sans-serif;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+}

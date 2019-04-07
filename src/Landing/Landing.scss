@@ -1,0 +1,74 @@
+.landing-container {
+  .navigation-landing {
+    font-family: "Overpass", sans-serif;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background: transparent;
+    z-index: 10 !important;
+    a {
+      text-decoration: none;
+      color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 10px;
+      font-size: 20px;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+  .first-view {
+    background-image: url(./landing.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    opacity: 0.6;
+    filter: brightness(120%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-family: "Paytone One", sans-serif;
+      font-size: 40px;
+      color: black;
+    }
+    h6 {
+      font-family: "Overpass", sans-serif;
+      color: #fa121e;
+      font-size: 20px;
+    }
+  }
+  .second-view {
+    background-color: #f8a234;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+    i {
+      color: white;
+      font-size: 60px;
+    }
+    h2 {
+      padding: 20px 0;
+      color: white;
+      font-family: "Paytone One", sans-serif;
+      font-size: 40px;
+      font-weight: bold;
+    }
+    p {
+      font-family: "Overpass", sans-serif;
+      color: white;
+      font-size: 20px;
+      line-height: 1.5em;
+    }
+  }
+}
