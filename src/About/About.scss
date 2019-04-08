@@ -9,33 +9,36 @@
       align-items: center;
       flex-direction: column;
       justify-content: center;
-      width: 80%;
-      // margin: 20px;
+      width: 50%;
+      .text-about {
+        h1 {
+          color: orange;
+          font-family: "Paytone One", sans-serif;
+          font-size: 30px;
+          width: 80%;
+          text-align: center;
+        }
+        p {
+          width: 80%;
+          font-family: "Overpass", sans-serif;
+          font-size: 18px;
+          text-align: center;
+        }
+      }
       .line-about {
         padding-top: 40px;
         margin-bottom: 40px;
         width: 100px;
         border-bottom: 4px solid maroon;
       }
-    }
-
-    h1 {
-      color: orange;
-      font-family: "Paytone One", sans-serif;
-      font-size: 30px;
-      text-align: center;
-    }
-    p {
-      font-family: "Overpass", sans-serif;
-      font-size: 18px;
-      text-align: center;
-    }
-    img {
-      width: 750px;
-      height: 400px;
-      object-fit: cover;
-
-      overflow: hidden;
+      .text-about-image {
+        width: 55%;
+        img {
+          height: 300px;
+          object-fit: cover;
+          overflow: hidden;
+        }
+      }
     }
   }
 
@@ -50,7 +53,7 @@
     h1 {
       color: black;
       font-family: "Paytone One", sans-serif;
-      font-size: 30px;
+      font-size: 40px;
       padding: 20px;
     }
     img {
