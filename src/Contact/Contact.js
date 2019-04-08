@@ -1,20 +1,26 @@
 import React, { Component } from "react";
 import "./Contact.scss";
+import NavBar from "../NavBar/NavBar";
+import Hours from "../Hours/Hours";
 class Contact extends Component {
   render() {
     return (
       <>
+        <NavBar />
         <div className="contact-form-container">
           <h1>Get in Touch</h1>
-          Full Name
-          <input />
-          Email
-          <input />
-          Message
-          <textarea />
-          <button>Send Message</button>
+          <form>
+            <h4>Full Name</h4>
+            <input />
+            <h4>Email</h4>
+            <input />
+            <h4>Message</h4>
+            <textarea />
+            <button>Send Message</button>
+          </form>
         </div>
         <div className="hours-and-map-container">
+          <Hours />
           <div class="mapouter">
             <div class="gmap_canvas">
               <iframe

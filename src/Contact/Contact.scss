@@ -1,3 +1,38 @@
+.contact-form-container {
+  background-color: grey;
+  padding: 10px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-family: "Paytone One", sans-serif;
+    text-align: center;
+    font-size: 35px;
+  }
+  h4 {
+    font-family: "Overpass", sans-serif;
+  }
+  form {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    input {
+      margin: 10px;
+      width: 450px;
+      height: 30px;
+    }
+    textarea {
+      margin: 10px;
+      resize: none;
+      width: 450px;
+      height: 200px;
+      border: none;
+    }
+  }
+}
 .mapouter {
   position: relative;
   text-align: right;
@@ -9,4 +44,9 @@
   background: none !important;
   height: 500px;
   width: 524px;
+}
+
+.hours-and-map-container {
+  width: 100%;
+  display: flex;
 }

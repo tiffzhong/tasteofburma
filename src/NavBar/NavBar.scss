@@ -1,34 +1,32 @@
 nav {
   font-family: "Overpass", sans-serif;
-  background-color: white;
-
+  background-color: gold;
   border-bottom: 2px solid maroon;
   width: 100%;
   position: fixed;
   font-size: 20px;
   z-index: 10;
-  height: 100px;
+  height: 60px;
   display: flex;
-  justify-content: center;
-  .drawerHidden {
+  justify-content: space-between;
+  align-items: center;
+  div {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    //  flex-direction: column;
   }
   button {
     display: none;
   }
-  div {
-    margin-top: 5px;
-  }
-  a {
-    margin: 0 10px;
-    color: black;
-    text-decoration: none;
 
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding-right: 20px;
+    font-size: 20px;
     &:hover {
-      color: rgb(199, 158, 104);
+      color: #f8a234;
     }
   }
 }

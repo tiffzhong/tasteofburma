@@ -1,0 +1,56 @@
+.second-view {
+  background-color: brown;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  i {
+    color: white;
+    font-size: 60px;
+  }
+
+  h2 {
+    padding: 20px 0;
+    color: white;
+    font-family: "Paytone One", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .hours {
+    display: flex;
+    justify-content: center;
+
+    text-decoration: none;
+    width: 100%;
+    flex-grow: 1;
+    ul {
+      width: 80%;
+      li {
+        display: flex;
+        text-decoration: none;
+        font-family: "Overpass", sans-serif;
+        color: white;
+        font-size: 20px;
+        line-height: 1.5em;
+        width: 100%;
+        .business-hours-day {
+          display: flex;
+          // flex-grow: 1;
+        }
+        .hours-line {
+          display: flex;
+          flex-grow: 2;
+          border-bottom: 2px solid white;
+          opacity: 0.5;
+          transform: translateY(-5px);
+        }
+        .business-hours-time {
+          text-align: right;
+          // flex-grow: 1;
+        }
+      }
+    }
+  }
+}

@@ -3,6 +3,7 @@ import "./Landing.scss";
 import { Link } from "react-router-dom";
 import logo from "../NavBar/logo.jpg";
 import Gallery from "../Gallery/Gallery";
+import Hours from "../Hours/Hours";
 const headerTop = {
   background: "transparent"
 };
@@ -66,58 +67,7 @@ class Landing extends Component {
         <div className="first-view">
           <h1>Taste of Burma</h1> <h6>Welcome!</h6>
         </div>
-        <div className="second-view">
-          <i class="far fa-clock" />
-
-          <h2>Business Hours</h2>
-          <div className="hours">
-            <ul>
-              <li>
-                <div className="business-hours-day">Monday</div>
-                <div className="hours-line" />
-                <div className="business-hours-time">Closed</div>
-              </li>
-              <li>
-                <div className="business-hours-day">Tuesday</div>
-                <div className="hours-line" />
-                <div className="business-hours-time">
-                  11:00am – 02:30pm, 05:00pm – 09:00pm
-                </div>
-              </li>
-              <li>
-                <div className="business-hours-day">Wednesday</div>
-                <div className="hours-line" />
-                <div className="business-hours-time">
-                  11:00am – 02:30pm, 05:00pm – 09:00pm
-                </div>
-              </li>
-              <li>
-                <div className="business-hours-day">Thursday</div>
-                <div className="hours-line" />
-                <div className="business-hours-time">
-                  11:00am – 02:30pm, 05:00pm – 09:00pm
-                </div>
-              </li>
-              <li>
-                <div className="business-hours-day">Friday</div>
-                <div className="hours-line" />
-                <div className="business-hours-time">
-                  11:00am – 02:30pm, 05:00pm – 09:00pm
-                </div>
-              </li>
-              <li>
-                <div className="business-hours-day">Saturday</div>
-                <div className="hours-line" />
-                <div className="business-hours-time">11:00am – 09:30pm</div>
-              </li>
-              <li>
-                <div className="business-hours-day">Sunday</div>
-                <div className="hours-line" />
-                <div className="business-hours-time">11:00am – 09:00pm</div>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <Hours />
         <div className="third-view">
           <Gallery />
         </div>
