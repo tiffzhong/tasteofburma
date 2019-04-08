@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Gallery.scss";
 import one from "./GalleryImages/1.jpeg";
 import two from "./GalleryImages/2.jpeg";
@@ -21,21 +21,21 @@ const Gallery = () => {
     <div className="gallery-container">
       <h2>Gallery</h2>
       <div className="gallery-image-container">
-        <img src={one} alt="gallery-image" />
-        <img src={two} alt="gallery-image" />
-        <img src={three} alt="gallery-image" />
-        <img src={four} alt="gallery-image" />
-        <img src={five} alt="gallery-image" />
-        <img src={six} alt="gallery-image" />
-        <img src={seven} alt="gallery-image" />
-        <img src={eight} alt="gallery-image" />
-        <img src={nine} alt="gallery-image" />
-        <img src={ten} alt="gallery-image" />
-        <img src={eleven} alt="gallery-image" />
-        <img src={twelve} alt="gallery-image" />
-        <img src={thirteen} alt="gallery-image" />
-        <img src={fourteen} alt="gallery-image" />
-        <img src={fifteen} alt="gallery-image" />
+        <img src={one} alt="gallery" />
+        <img src={two} alt="gallery" />
+        <img src={three} alt="gallery" />
+        <img src={four} alt="gallery" />
+        <img src={five} alt="gallery" />
+        <img src={six} alt="gallery" />
+        <img src={seven} alt="gallery" />
+        <img src={eight} alt="gallery" />
+        <img src={nine} alt="gallery" />
+        <img src={ten} alt="gallery" />
+        <img src={eleven} alt="gallery" />
+        <img src={twelve} alt="gallery" />
+        <img src={thirteen} alt="gallery" />
+        <img src={fourteen} alt="gallery" />
+        <img src={fifteen} alt="gallery" />
       </div>
     </div>
   );

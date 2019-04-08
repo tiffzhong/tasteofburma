@@ -17,7 +17,7 @@ class Footer extends Component {
           <h5>Address</h5>
           <p>2025 GELLERT BLVD STE 200 </p>
           <p>Daly City, CA 94015, US</p>
-          <p>650-449-1378</p>
+          <a href="tel:6504491378">650-449-1378</a>
         </div>
         <div className="social-media-links">
           <a
