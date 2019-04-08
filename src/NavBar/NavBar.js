@@ -2,9 +2,7 @@ import React, { Component } from "react";
 import "./NavBar.scss";
 import { Link } from "react-router-dom";
 import logo from "./logo.jpg";
-const headerScroll = {
-  backgroundColor: "gold"
-};
+
 class NavBar extends Component {
   constructor() {
     super();
@@ -35,10 +33,12 @@ class NavBar extends Component {
             </div>
           </div>
         ) : (
-          <div className="drawerHidden" style={headerScroll}>
-            <Link to="/">
-              <img src={logo} height="40" alt="logo" />
-            </Link>
+          <div className="drawerHidden">
+            <div>
+              <Link to="/">
+                <img src={logo} height="40" alt="logo" />
+              </Link>
+            </div>
             <button onClick={this.toggle}>&#9776;</button>
 
             <div className="nav-links">

@@ -8,7 +8,8 @@ const headerTop = {
   background: "transparent"
 };
 const headerScroll = {
-  background: "gold",
+  background: "maroon",
+
   transition: "background-color 1s ease 0s"
 };
 class Landing extends Component {

@@ -1,17 +1,19 @@
 nav {
-  font-family: "Overpass", sans-serif;
-  background-color: gold;
-  border-bottom: 2px solid maroon;
-  width: 100%;
-  position: fixed;
-  font-size: 20px;
-  z-index: 10;
-  height: 60px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  .drawerHidden {
+    font-family: "Overpass", sans-serif;
+    background-color: maroon;
+    width: 100%;
+    position: fixed;
+    font-size: 20px;
+    z-index: 10;
+    height: 60px;
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+  }
   div {
     display: flex;
+    justify-content: space-between;
   }
   button {
     display: none;
@@ -19,7 +21,7 @@ nav {
 
   a {
     text-decoration: none;
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
     margin: 10px;

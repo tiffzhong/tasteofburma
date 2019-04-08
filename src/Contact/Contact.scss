@@ -1,7 +1,8 @@
 .contact-form-container {
   background-color: grey;
-  padding: 10px;
-  height: 90vh;
+  //   padding: 10px;
+  padding-top: 35px;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,16 +21,28 @@
     align-items: center;
     flex-direction: column;
     input {
+      font-size: 14px;
       margin: 10px;
       width: 450px;
       height: 30px;
     }
     textarea {
+      font-size: 14px;
       margin: 10px;
       resize: none;
       width: 450px;
       height: 200px;
       border: none;
+    }
+    button {
+      font-size: 15px;
+      width: 200px;
+      height: 40px;
+      background-color: gold;
+      margin: 10px;
+      &:hover {
+        font-weight: bold;
+      }
     }
   }
 }
