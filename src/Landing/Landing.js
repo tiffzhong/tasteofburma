@@ -15,7 +15,8 @@ class Landing extends Component {
   constructor() {
     super();
     this.state = {
-      isTop: true
+      isTop: true,
+      toggle: false
     };
     this.onScroll = this.onScroll.bind(this);
   }
@@ -28,7 +29,13 @@ class Landing extends Component {
       }
     });
   }
-
+  toggle = () => {
+    this.setState(p => {
+      return {
+        toggle: !p.toggle
+      };
+    });
+  };
   onScroll(isTop) {
     this.setState({ isTop });
   }
@@ -41,7 +48,8 @@ class Landing extends Component {
             <Link to="/">
               <img src={logo} height="40" alt="logo" />
             </Link>
-            <div className="links">
+
+            <div className="nav-links">
               <Link to="/">Home</Link>
               <Link to="/menu">Menu</Link>
               <Link to="/about">About</Link>
@@ -54,7 +62,8 @@ class Landing extends Component {
             <Link to="/">
               <img src={logo} height="40" alt="logo" />
             </Link>
-            <div className="links">
+
+            <div className="nav-links">
               <Link to="/">Home</Link>
               <Link to="/menu">Menu</Link>
               <Link to="/about">About</Link>

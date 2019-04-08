@@ -9,10 +9,13 @@ nav {
     height: 60px;
     display: flex;
     align-items: center;
+    padding-left: 30px;
   }
   div {
+    padding-right: 35px;
     display: flex;
     justify-content: space-between;
+
     button {
       display: none;
     }
@@ -31,16 +34,14 @@ nav {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   nav {
-    width: 0px;
-
     div {
       button {
         display: initial;
         left: 10px;
         border: none;
-        font-size: 20px;
+        font-size: 25px;
         height: 40px;
         position: absolute;
         z-index: 2;
@@ -54,27 +55,32 @@ nav {
     }
   }
   .drawerOpen {
+    transition-property: transform, visibility;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
     background: white;
-    height: 100%;
+    opacity: 0.95;
+    height: 100vh;
+    width: 100%;
     transition: 0.5s;
-    transform: translate(100px);
-    padding-left: 20px;
-    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    position: fixed;
 
     button {
       top: 0px;
-      left: 180px;
+      right: 0px;
       font-size: 40px;
       padding: 0;
       color: black;
     }
-    .links {
+    .nav-links {
       transition: 0.3s;
-      width: 200px;
+      width: 100%;
       padding-top: 40px;
-
       display: flex;
       flex-direction: column;
+      align-items: center;
       a {
         padding: 10px;
       }
@@ -84,7 +90,7 @@ nav {
     img {
       display: none;
     }
-    .links {
+    .nav-links {
       display: none;
     }
   }
