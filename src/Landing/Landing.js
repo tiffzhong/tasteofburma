@@ -54,7 +54,7 @@ class Landing extends Component {
               <Link to="/menu">Menu</Link>
               <Link to="/about">About</Link>
               <Link to="/contact">Contact</Link>
-              <a href="tel:">Call</a>
+              <a href="tel:6504491378">Call</a>
             </div>
           </div>
         ) : (
