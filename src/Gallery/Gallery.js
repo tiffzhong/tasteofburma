@@ -21,21 +21,66 @@ const Gallery = () => {
     <div className="gallery-container">
       <h2>Gallery</h2>
       <div className="gallery-image-container">
-        <img src={one} alt="gallery" />
-        <img src={two} alt="gallery" />
-        <img src={three} alt="gallery" />
-        <img src={four} alt="gallery" />
-        <img src={five} alt="gallery" />
-        <img src={six} alt="gallery" />
-        <img src={seven} alt="gallery" />
-        <img src={eight} alt="gallery" />
-        <img src={nine} alt="gallery" />
-        <img src={ten} alt="gallery" />
-        <img src={eleven} alt="gallery" />
-        <img src={twelve} alt="gallery" />
-        <img src={thirteen} alt="gallery" />
-        <img src={fourteen} alt="gallery" />
-        <img src={fifteen} alt="gallery" />
+        <div className="image-box">
+          <img src={one} alt="gallery" />
+          <div className="overlay-image" />
+        </div>
+        <div className="image-box">
+          <img src={two} alt="gallery" />
+          <div className="overlay-image" />
+        </div>
+        <div className="image-box">
+          <img src={three} alt="gallery" />
+          <div className="overlay-image" />
+        </div>
+        <div className="image-box">
+          <img src={four} alt="gallery" />
+          <div className="overlay-image" />
+        </div>
+        <div className="image-box">
+          <img src={five} alt="gallery" />
+          <div className="overlay-image" />
+        </div>
+        <div className="image-box">
+          <img src={six} alt="gallery" />
+          <div className="overlay-image" />
+        </div>
+        <div className="image-box">
+          <img src={seven} alt="gallery" />
+          <div className="overlay-image" />
+        </div>
+        <div className="image-box">
+          <img src={eight} alt="gallery" />
+          <div className="overlay-image" />
+        </div>
+        <div className="image-box">
+          <img src={nine} alt="gallery" />
+          <div className="overlay-image" />
+        </div>
+        <div className="image-box">
+          <img src={ten} alt="gallery" />
+          <div className="overlay-image" />
+        </div>
+        <div className="image-box">
+          <img src={eleven} alt="gallery" />
+          <div className="overlay-image" />
+        </div>
+        <div className="image-box">
+          <img src={twelve} alt="gallery" />
+          <div className="overlay-image" />
+        </div>
+        <div className="image-box">
+          <img src={thirteen} alt="gallery" />
+          <div className="overlay-image" />
+        </div>
+        <div className="image-box">
+          <img src={fourteen} alt="gallery" />
+          <div className="overlay-image" />
+        </div>
+        <div className="image-box">
+          <img src={fifteen} alt="gallery" />
+          <div className="overlay-image" />
+        </div>
       </div>
     </div>
   );
