@@ -7,11 +7,15 @@ class Footer extends Component {
     return (
       <footer>
         <div className="footer-links-container">
-          <img src={logo} height="40" alt="logo" />
-          <Link to="/">Home</Link>
-          <Link to="/menu">Menu</Link>
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
+          <div>
+            <img src={logo} height="40" alt="logo" />
+          </div>
+          <div>
+            <Link to="/">Home</Link>
+            <Link to="/menu">Menu</Link>
+            <Link to="/about">About</Link>
+            <Link to="/contact">Contact</Link>
+          </div>
         </div>
         <div className="address-container">
           <h5>Address</h5>

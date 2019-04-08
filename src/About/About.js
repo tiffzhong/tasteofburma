@@ -12,16 +12,20 @@ class About extends Component {
         <NavBar />
         <div className="about-container">
           <div className="about-header-container">
-            <section className="text-about">
-              <h1>We want to welcome you to our restaurant</h1>
-              <div className="line-about" />
-              <p>
-                Welcome to Taste of Burma. Come and dine with us for your next
-                meal!
-              </p>
+            <section>
+              <div className="text-about">
+                <h1>We want to welcome you to our restaurant</h1>
+                <div className="line-about" />
+                <p>
+                  Welcome to Taste of Burma. Come and dine with us for your next
+                  meal!
+                </p>
+              </div>
             </section>
-            <section className="text-about-image">
-              <img src={headerImage} alt="group" />
+            <section>
+              <div className="text-about-image">
+                <img src={headerImage} alt="group" />
+              </div>
             </section>
           </div>
           <div className="gallery-about-container">

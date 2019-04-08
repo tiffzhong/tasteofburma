@@ -8,7 +8,7 @@
   justify-content: center;
   align-items: center;
   h1 {
-    font-family: "Paytone One", sans-serif;
+    font-family: "Staatliches", cursive;
     text-align: center;
     font-size: 40px;
   }
@@ -47,28 +47,29 @@
     }
   }
 }
-.mapouter {
-  position: relative;
-  text-align: right;
-  height: 500px;
-  width: 524px;
-}
-.gmap_canvas {
-  overflow: hidden;
-  background: none !important;
-  height: 500px;
-  width: 524px;
-}
-
 .hours-and-map-container {
   width: 100%;
   display: flex;
+  .mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 524px;
+
+    .gmap_canvas {
+      overflow: hidden;
+      background: none !important;
+      height: 500px;
+      width: 524px;
+      iframe {
+        width: 525px;
+        height: 500px;
+      }
+    }
+  }
 }
 
 @media (max-width: 1150px) {
-  .hours-and-map-container {
-  }
-
   .contact-form-container {
     form {
       padding: 10px;
@@ -89,6 +90,21 @@
         width: 100%;
         height: 200px;
         border: none;
+      }
+    }
+  }
+  .hours-and-map-container {
+    flex-direction: column;
+    .mapouter {
+      height: 400px;
+      width: 100%;
+      .gmap_canvas {
+        height: 400px;
+        width: 100%;
+        iframe {
+          width: 100%;
+          height: 400px;
+        }
       }
     }
   }

@@ -1,27 +1,27 @@
 .about-container {
   width: 100%;
   .about-header-container {
-    width: 100%;
     padding-top: 60px;
     display: flex;
+    justify-items: center;
+    align-items: center;
     section {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      justify-content: center;
-      width: 50%;
       .text-about {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
         h1 {
           color: orange;
-          font-family: "Paytone One", sans-serif;
-          font-size: 30px;
+          font-family: "Staatliches", cursive;
+          font-size: 35px;
           width: 80%;
           text-align: center;
         }
         p {
           width: 80%;
           font-family: "Overpass", sans-serif;
-          font-size: 18px;
+          font-size: 20px;
           text-align: center;
         }
       }
@@ -32,35 +32,78 @@
         border-bottom: 4px solid maroon;
       }
       .text-about-image {
-        width: 55%;
+        width: 100%;
+        display: flex;
         img {
-          height: 300px;
+          width: 100%;
+          height: 400px;
+          margin: 0 auto;
           object-fit: cover;
-          overflow: hidden;
         }
       }
     }
   }
 
   .gallery-about-container {
+    width: 100%;
     background-color: gold;
-    padding: 50px;
+    padding: 50px 0;
     display: flex;
+    margin: 0 auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     h1 {
       color: black;
-      font-family: "Paytone One", sans-serif;
+      font-family: "Staatliches", cursive;
       font-size: 40px;
       padding: 20px;
     }
-    img {
-      margin: 10px;
-      width: 350px;
-      height: 320px;
-      object-fit: cover;
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      img {
+        margin: 10px;
+        width: 350px;
+        height: 320px;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .about-container {
+    .about-header-container {
+      padding-top: 140px;
+      display: flex;
+      flex-direction: column;
+      section {
+        .text-about {
+          h1 {
+            font-size: 45px;
+            width: 90%;
+          }
+          p {
+            width: 90%;
+            padding-bottom: 50px;
+            font-size: 20px;
+          }
+        }
+        .line-about {
+          width: 200px;
+        }
+        .text-about-image {
+          img {
+            width: 100%;
+            height: 300px;
+            margin: 0 auto;
+            object-fit: cover;
+          }
+        }
+      }
     }
   }
 }
