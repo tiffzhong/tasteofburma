@@ -8,8 +8,19 @@ class Contact extends Component {
       <>
         <NavBar />
         <div className="contact-form-container">
-          <h1>Get in Touch</h1>
-          <form>
+          <h1>Contact Us</h1>
+
+          <div>
+            <h3>Call Us: </h3> <a href="tel:6504491378">650-449-1378</a>
+          </div>
+          <div>
+            <h3>Email: </h3>{" "}
+            <a href="mailto:tasteofburmadalycity@gmail.com">
+              tasteofburmadalycity@gmail.com
+            </a>
+          </div>
+
+          {/* <form>
             <h4>Full Name</h4>
             <input />
             <h4>Email</h4>
@@ -17,7 +28,7 @@ class Contact extends Component {
             <h4>Message</h4>
             <textarea />
             <button>Send Message</button>
-          </form>
+          </form> */}
         </div>
         <div className="hours-and-map-container">
           <Hours />
