@@ -8,7 +8,7 @@ class Contact extends Component {
       <>
         <NavBar />
         <div className="contact-form-container">
-          <h1>Contact Us</h1>
+          <h1>Get In Touch</h1>
 
           <div>
             <h3>Call Us: </h3> <a href="tel:6504491378">650-449-1378</a>
