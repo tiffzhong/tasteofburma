@@ -1,5 +1,5 @@
 .menu-container {
-  background: lightgray;
+  background: #EFE4DC;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,12 +37,21 @@
       padding: 10px;
       .item-name {
         display: flex;
+        font-weight: bold;
+        text-transform: uppercase;
         h5 {
+          color: black;
           font-size: 20px;
+        }
+        h6 {
+          color: black;
+          font-size: 20px;
+          text-indent: 60px;
         }
       }
       p {
         font-size: 18px;
+        text-transform: lowercase;
       }
       .line-break {
         padding-top: 10px;
