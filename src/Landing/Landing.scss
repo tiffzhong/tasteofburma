@@ -73,14 +73,13 @@
   .landing-container {
     nav {
       div {
-        // background-color: #ad463d;
         button {
           display: initial;
-          left: 10px;
+          right: 40px;
           border: none;
           font-size: 25px;
           height: 40px;
-          position: absolute;
+          position: relative;
           z-index: 2;
           background: transparent;
           border: none;
@@ -106,12 +105,17 @@
       position: fixed;
       z-index: 150;
       button {
-        top: 0px;
-        right: 0px;
+        display: flex;
+        position: inherit;
+        top: 5px;
+        right: 20px;
         font-size: 40px;
         padding: 0;
         color: black;
-        z-index: 200;
+        z-index: 1050;
+        &:hover {
+          color: #ad463d;
+        }
       }
       .nav-links {
         transition: 0.3s;
@@ -128,9 +132,6 @@
     }
     // }
     .drawerHidden {
-      img {
-        display: none;
-      }
       .nav-links {
         display: none;
       }
