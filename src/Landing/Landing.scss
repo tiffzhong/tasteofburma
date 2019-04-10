@@ -1,21 +1,27 @@
 .landing-container {
-  .navigation-landing {
-    font-family: "Overpass", sans-serif;
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 60px;
-    width: 100%;
-    z-index: 10 !important;
-    padding: 0 30px;
-    div {
+  nav {
+    .drawerHidden {
+      font-family: "Overpass", sans-serif;
+      width: 100%;
+      position: fixed;
+      font-size: 20px;
+      z-index: 10;
+      height: 60px;
       display: flex;
-      padding: 0 40px;
+      align-items: center;
+      padding-left: 30px;
+    }
+    div {
+      padding-right: 35px;
+      display: flex;
+      justify-content: space-between;
+      button {
+        display: none;
+      }
     }
     a {
       text-decoration: none;
-      color: white;
+      color: black;
       text-transform: uppercase;
       font-weight: bold;
       display: flex;
@@ -24,10 +30,11 @@
       padding-right: 20px;
       font-size: 15px;
       &:hover {
-        color: #FFCA56;
+        color: #ffca56;
       }
     }
   }
+  // *****
   .first-view {
     background-image: url(./landing.jpg);
     width: 100%;
@@ -40,6 +47,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
     h1 {
       text-align: center;
       font-family: "Staatliches", cursive;
@@ -61,11 +69,83 @@
   }
 }
 
+@media (max-width: 700px) {
+  .landing-container {
+    nav {
+      div {
+        // background-color: #ad463d;
+        button {
+          display: initial;
+          left: 10px;
+          border: none;
+          font-size: 25px;
+          height: 40px;
+          position: absolute;
+          z-index: 2;
+          background: transparent;
+          border: none;
+          color: white;
+          &:hover {
+            color: black;
+          }
+        }
+      }
+    }
+
+    .drawerOpen {
+      transition-property: transform, visibility;
+      transition-duration: 500ms;
+      transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      background: white;
+      opacity: 0.95;
+      height: 100vh;
+      width: 100%;
+      transition: 0.5s;
+      display: flex;
+      align-items: flex-start;
+      position: fixed;
+      z-index: 150;
+      button {
+        top: 0px;
+        right: 0px;
+        font-size: 40px;
+        padding: 0;
+        color: black;
+        z-index: 200;
+      }
+      .nav-links {
+        transition: 0.3s;
+        width: 100%;
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 1000;
+        a {
+          padding: 10px;
+        }
+      }
+    }
+    // }
+    .drawerHidden {
+      img {
+        display: none;
+      }
+      .nav-links {
+        display: none;
+      }
+    }
+  }
+}
+
 @media (max-width: 400px) {
   .landing-container {
     .first-view {
       h1 {
-        font-size: 50px;
+        font-size: 60px;
+      }
+      h6 {
+        font-size: 40px;
       }
     }
   }

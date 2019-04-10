@@ -2,7 +2,7 @@
   h2 {
     text-align: center;
     padding: 20px 0;
-    color: #FFCA56;
+    color: #ffca56;
     font-family: "Staatliches", cursive;
     font-size: 40px;
     font-weight: bold;
@@ -28,6 +28,7 @@
         height: 300px;
         object-fit: cover;
         max-width: 100%;
+        z-index: 1;
       }
       &:hover img {
         transform: scale(1.2);
