@@ -935,7 +935,7 @@ class Menu extends Component {
           </div>
 
           <div className="menu-header">
-            <h2>Soda $1</h2>
+            <h2>Soda</h2>
           </div>
 
           <div className="menu-item-container">
@@ -944,7 +944,7 @@ class Menu extends Component {
                 <h5>
                   Coke
                 </h5>
-                <h6></h6>
+                <h6>1</h6>
               </div>
               <div className="line-break" />
               <p>
@@ -956,7 +956,7 @@ class Menu extends Component {
                 <h5>
                   Diet Coke
                 </h5>
-                <h6></h6>
+                <h6>1</h6>
               </div>
               <div className="line-break" />
               <p>
@@ -968,7 +968,7 @@ class Menu extends Component {
                 <h5>
                   Sprite
                 </h5>
-                <h6></h6>
+                <h6>1</h6>
               </div>
               <div className="line-break" />
               <p>
