@@ -48,7 +48,10 @@ class Landing extends Component {
             <Link to="/">
               <img src={logo} height="40" alt="logo" />
             </Link>
-
+            <div className="links">
+              <button onClick={this.toggle}>☰</button>
+            </div>
+            <ul className={this.state.toggle ? "show" : "hide"} />
             <div className="nav-links">
               <Link to="/">Home</Link>
               <Link to="/menu">Menu</Link>
@@ -62,13 +65,16 @@ class Landing extends Component {
             <Link to="/">
               <img src={logo} height="40" alt="logo" />
             </Link>
-
+            <div className="links">
+              <button onClick={this.toggle}>☰</button>
+            </div>
+            <ul className={this.state.toggle ? "show" : "hide"} />
             <div className="nav-links">
               <Link to="/">Home</Link>
               <Link to="/menu">Menu</Link>
               <Link to="/about">About</Link>
               <Link to="/contact">Contact</Link>
-              <a href="tel:">Call</a>
+              <a href="tel:6504491378">Call</a>
             </div>
           </div>
         )}
