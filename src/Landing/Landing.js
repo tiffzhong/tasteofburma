@@ -1,16 +1,14 @@
 import React, { Component } from "react";
 import "./Landing.scss";
-import { Link } from "react-router-dom";
-import logo from "../NavBar/logo.jpg";
 import Gallery from "../Gallery/Gallery";
 import Hours from "../Hours/Hours";
-const headerTop = {
-  background: "transparent"
-};
-const headerScroll = {
-  background: "#AD463D",
-  transition: "background-color 1s ease 0s"
-};
+// const headerTop = {
+//   background: "transparent"
+// };
+// const headerScroll = {
+//   background: "#AD463D",
+//   transition: "background-color 1s ease 0s"
+// };
 class Landing extends Component {
   constructor() {
     super();
@@ -18,32 +16,35 @@ class Landing extends Component {
       isTop: true,
       toggle: false
     };
-    this.onScroll = this.onScroll.bind(this);
+    // this.onScroll = this.onScroll.bind(this);
   }
 
-  componentDidMount() {
-    document.addEventListener("scroll", () => {
-      const isTop = window.scrollY < 400;
-      if (isTop !== this.state.isTop) {
-        this.onScroll(isTop);
-      }
-    });
-  }
-  toggle = () => {
-    this.setState(p => {
-      return {
-        toggle: !p.toggle
-      };
-    });
-  };
-  onScroll(isTop) {
-    this.setState({ isTop });
-  }
+  // componentDidMount() {
+  // document.addEventListener("scroll", () => {
+  //   const isTop = window.scrollY < 400;
+  //   if (isTop !== this.state.isTop) {
+  //     this.onScroll(isTop);
+  //   }
+  // });
+  // }
+  // toggle = () => {
+  //   this.setState(p => {
+  //     return {
+  //       toggle: !p.toggle
+  //     };
+  //   });
+  // };
+  // onScroll(isTop) {
+  //   this.setState({ isTop });
+  // }
 
   render() {
     return (
       <div className="landing-container">
-        <nav style={this.state.isTop ? headerTop : headerScroll}>
+        {/* <div
+          className="nav-landing"
+          style={this.state.isTop ? headerTop : headerScroll}
+        >
           {this.state.toggle ? (
             <div className="drawerOpen">
               <button onClick={this.toggle}>&times;</button>
@@ -73,7 +74,7 @@ class Landing extends Component {
               </div>
             </div>
           )}
-        </nav>
+        </div> */}
         <div className="first-view">
           <h1>Taste of Burma</h1> <h6>Welcome!</h6>
         </div>

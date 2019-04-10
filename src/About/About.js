@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./About.scss";
-import NavBar from "../NavBar/NavBar";
 import headerImage from "./Images/a4.jpg";
 import image1 from "./Images/a1.jpeg";
 import image2 from "./Images/a2.jpeg";
@@ -9,7 +8,6 @@ class About extends Component {
   render() {
     return (
       <>
-        <NavBar />
         <div className="about-container">
           <div className="about-header-container">
             <section>

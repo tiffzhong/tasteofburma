@@ -1,12 +1,10 @@
 import React, { Component } from "react";
 import "./Contact.scss";
-import NavBar from "../NavBar/NavBar";
 import Hours from "../Hours/Hours";
 class Contact extends Component {
   render() {
     return (
       <>
-        <NavBar />
         <div className="contact-form-container">
           <h1>Get In Touch</h1>
 

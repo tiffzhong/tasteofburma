@@ -1,11 +1,9 @@
 import React, { Component } from "react";
 import "./Menu.scss";
-import NavBar from "../NavBar/NavBar";
 class Menu extends Component {
   render() {
     return (
       <>
-        <NavBar />
         <div className="menu-container">
           <h1>Menu</h1>
 
@@ -40,21 +38,15 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Burmese Style Fried Onion
-                </h5>
+                <h5>Burmese Style Fried Onion</h5>
                 <h6>5.99</h6>
               </div>
               <div className="line-break" />
-              <p>
-                deep fried yellow onion mixed with special flour paste
-              </p>
+              <p>deep fried yellow onion mixed with special flour paste</p>
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Mandalay Style Fried Bean
-                </h5>
+                <h5>Mandalay Style Fried Bean</h5>
                 <h6>5.99</h6>
               </div>
               <div className="line-break" />
@@ -64,9 +56,7 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Samusa
-                </h5>
+                <h5>Samusa</h5>
                 <h6>5.99</h6>
               </div>
               <div className="line-break" />
@@ -77,63 +67,46 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Fried Tempura Shrimp
-                </h5>
+                <h5>Fried Tempura Shrimp</h5>
                 <h6>5.99</h6>
               </div>
               <div className="line-break" />
-              <p>
-                Deep fried tempura shrimp serve with house sauce
-              </p>
+              <p>Deep fried tempura shrimp serve with house sauce</p>
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Keema Paratha
-                </h5>
+                <h5>Keema Paratha</h5>
                 <h6>7.99</h6>
               </div>
               <div className="line-break" />
               <p>
-                In between two parathas filled with chef's special grounded chicken
+                In between two parathas filled with chef's special grounded
+                chicken
               </p>
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Fried Yellow Tofu
-                </h5>
+                <h5>Fried Yellow Tofu</h5>
                 <h6>6.99</h6>
               </div>
               <div className="line-break" />
-              <p>
-                Deep fried soft yellow tofu serves with house sauce
-              </p>
+              <p>Deep fried soft yellow tofu serves with house sauce</p>
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Fried Dumpling (Pork / Chicken)
-                </h5>
+                <h5>Fried Dumpling (Pork / Chicken)</h5>
                 <h6>5.99</h6>
               </div>
               <div className="line-break" />
-              <p>
-                Wheat flour wrap, cabbage, onion, spices and garlic
-              </p>
+              <p>Wheat flour wrap, cabbage, onion, spices and garlic</p>
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Fried Fish Cracker
-                </h5>
+                <h5>Fried Fish Cracker</h5>
                 <h6>3.99</h6>
               </div>
               <div className="line-break" />
-              <p>
-                Deep fried fish cracker imported from Burma
-              </p>
+              <p>Deep fried fish cracker imported from Burma</p>
             </div>
           </div>
 
@@ -144,16 +117,14 @@ class Menu extends Component {
           <div className="menu-item-container">
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Tea Leaf Salad
-                </h5>
+                <h5>Tea Leaf Salad</h5>
                 <h6>10.99</h6>
               </div>
               <div className="line-break" />
               <p>
-                Burmese tea leaves, cabbage, tomatoes, fried garlic, fried yellow
-                beans, sunflower seeds, peanuts and sesame seeds all mixed and
-                serve with one slice lime
+                Burmese tea leaves, cabbage, tomatoes, fried garlic, fried
+                yellow beans, sunflower seeds, peanuts and sesame seeds all
+                mixed and serve with one slice lime
               </p>
             </div>
             <div className="food-items">
@@ -170,9 +141,7 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Mango Salad
-                </h5>
+                <h5>Mango Salad</h5>
                 <h6>9.99</h6>
               </div>
               <div className="line-break" />
@@ -183,9 +152,7 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Rainbow Salad
-                </h5>
+                <h5>Rainbow Salad</h5>
                 <h6>9.99</h6>
               </div>
               <div className="line-break" />
@@ -196,9 +163,7 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Samusa Salad
-                </h5>
+                <h5>Samusa Salad</h5>
                 <h6>9.99</h6>
               </div>
               <div className="line-break" />
@@ -209,9 +174,7 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Baya-Kyaw Salad
-                </h5>
+                <h5>Baya-Kyaw Salad</h5>
                 <h6>9.99</h6>
               </div>
               <div className="line-break" />
@@ -222,22 +185,18 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Noodle Salad
-                </h5>
+                <h5>Noodle Salad</h5>
                 <h6>9.99</h6>
               </div>
               <div className="line-break" />
               <p>
-                Cabbage, egg noodle, cucumber, cilantro, fried potato, fried tofu,
-                red onion and fried onion on top
+                Cabbage, egg noodle, cucumber, cilantro, fried potato, fried
+                tofu, red onion and fried onion on top
               </p>
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Chicken Salad
-                </h5>
+                <h5>Chicken Salad</h5>
                 <h6>9.99</h6>
               </div>
               <div className="line-break" />
@@ -248,9 +207,7 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Pork Salad
-                </h5>
+                <h5>Pork Salad</h5>
                 <h6>9.99</h6>
               </div>
               <div className="line-break" />
@@ -268,9 +225,7 @@ class Menu extends Component {
           <div className="menu-item-container">
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Moh-Hingar
-                </h5>
+                <h5>Moh-Hingar</h5>
                 <h6>9.99</h6>
               </div>
               <div className="line-break" />
@@ -300,9 +255,7 @@ class Menu extends Component {
           <div className="menu-item-container">
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Chana Dal Mixed Vegetable Soup
-                </h5>
+                <h5>Chana Dal Mixed Vegetable Soup</h5>
                 <h6>9.99</h6>
               </div>
               <div className="line-break" />
@@ -325,21 +278,22 @@ class Menu extends Component {
           </div>
 
           <div className="menu-header">
-            <h2>Noodles (All Noodles will serve with House Special Chicken Broth)</h2>
+            <h2>
+              Noodles (All Noodles will serve with House Special Chicken Broth)
+            </h2>
           </div>
 
           <div className="menu-item-container">
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Nan Gyi Dok
-                </h5>
+                <h5>Nan Gyi Dok</h5>
                 <h6>9.99</h6>
               </div>
               <div className="line-break" />
               <p>
                 thick rice vermicelli mixed with coconut diced chicken sauce,
-                bean powder, red onion, cilantro, fried wonton and fried onion on top
+                bean powder, red onion, cilantro, fried wonton and fried onion
+                on top
               </p>
             </div>
             <div className="food-items">
@@ -356,22 +310,18 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Garlic Noodle (Chicken / Pork / Tofu)
-                </h5>
+                <h5>Garlic Noodle (Chicken / Pork / Tofu)</h5>
                 <h6>9.99</h6>
               </div>
               <div className="line-break" />
               <p>
-                flour noodle mixed with fried dice garlic, soy sauce, green onion
-                and your choice of meat
+                flour noodle mixed with fried dice garlic, soy sauce, green
+                onion and your choice of meat
               </p>
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Shan Noodle (Chicken / Tofu)
-                </h5>
+                <h5>Shan Noodle (Chicken / Tofu)</h5>
                 <h6>9.99</h6>
               </div>
               <div className="line-break" />
@@ -383,9 +333,7 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Golden Mountain Noodle (Chicken / Tofu)
-                </h5>
+                <h5>Golden Mountain Noodle (Chicken / Tofu)</h5>
                 <h6>9.99</h6>
               </div>
               <div className="line-break" />
@@ -397,15 +345,13 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Pan Tay Noodle (Chicken)
-                </h5>
+                <h5>Pan Tay Noodle (Chicken)</h5>
                 <h6>9.99</h6>
               </div>
               <div className="line-break" />
               <p>
-                chow mein noodle with house special sauce including egg, cabbage,
-                tomato, red onion, masala
+                chow mein noodle with house special sauce including egg,
+                cabbage, tomato, red onion, masala
               </p>
             </div>
           </div>
@@ -417,15 +363,11 @@ class Menu extends Component {
           <div className="menu-item-container">
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Tofu Curry
-                </h5>
+                <h5>Tofu Curry</h5>
                 <h6>8.99</h6>
               </div>
               <div className="line-break" />
-              <p>
-                soft tofu cook with house special tomato paste
-              </p>
+              <p>soft tofu cook with house special tomato paste</p>
             </div>
             <div className="food-items">
               <div className="item-name">
@@ -433,76 +375,54 @@ class Menu extends Component {
                 <h6>8.99</h6>
               </div>
               <div className="line-break" />
-              <p>
-                pumpkin cook with house special curry paste
-              </p>
+              <p>pumpkin cook with house special curry paste</p>
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Okra Egg Curry
-                </h5>
+                <h5>Okra Egg Curry</h5>
                 <h6>9.99</h6>
               </div>
               <div className="line-break" />
               <p>
-                okra and fried hard boil egg cook with green and red bell peppers,
-                yellow onions and house special tomato paste
+                okra and fried hard boil egg cook with green and red bell
+                peppers, yellow onions and house special tomato paste
               </p>
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Pork Curry
-                </h5>
+                <h5>Pork Curry</h5>
                 <h6>10.99</h6>
               </div>
               <div className="line-break" />
-              <p>
-                pork and potato cook with house special curry paste
-              </p>
+              <p>pork and potato cook with house special curry paste</p>
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Pumpkin Pork Curry
-                </h5>
+                <h5>Pumpkin Pork Curry</h5>
                 <h6>10.99</h6>
               </div>
               <div className="line-break" />
-              <p>
-                pork and pumpkin cook with house special curry paste
-              </p>
+              <p>pork and pumpkin cook with house special curry paste</p>
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Chicken Curry
-                </h5>
+                <h5>Chicken Curry</h5>
                 <h6>10.99</h6>
               </div>
               <div className="line-break" />
-              <p>
-                chicken and potato cook with house special curry paste
-              </p>
+              <p>chicken and potato cook with house special curry paste</p>
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Lamb Curry
-                </h5>
+                <h5>Lamb Curry</h5>
                 <h6>14.99</h6>
               </div>
               <div className="line-break" />
-              <p>
-                lamb and potato cook with house special curry paste
-              </p>
+              <p>lamb and potato cook with house special curry paste</p>
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Prawn Curry
-                </h5>
+                <h5>Prawn Curry</h5>
                 <h6>12.99</h6>
               </div>
               <div className="line-break" />
@@ -513,15 +433,11 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Beef Curry
-                </h5>
+                <h5>Beef Curry</h5>
                 <h6>12.99</h6>
               </div>
               <div className="line-break" />
-              <p>
-                beef and potato cook with house special curry paste
-              </p>
+              <p>beef and potato cook with house special curry paste</p>
             </div>
           </div>
 
@@ -532,9 +448,7 @@ class Menu extends Component {
           <div className="menu-item-container">
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Fried Vegetables
-                </h5>
+                <h5>Fried Vegetables</h5>
                 <h6>9.99</h6>
               </div>
               <div className="line-break" />
@@ -556,9 +470,7 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Shrimp (Green Bean or Eggplant)
-                </h5>
+                <h5>Shrimp (Green Bean or Eggplant)</h5>
                 <h6>12.99</h6>
               </div>
               <div className="line-break" />
@@ -569,9 +481,7 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Mango (Chicken or Prawn)
-                </h5>
+                <h5>Mango (Chicken or Prawn)</h5>
                 <h6>12.99</h6>
               </div>
               <div className="line-break" />
@@ -582,9 +492,7 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Pineapple (Chicken or Prawn)
-                </h5>
+                <h5>Pineapple (Chicken or Prawn)</h5>
                 <h6>12.99</h6>
               </div>
               <div className="line-break" />
@@ -595,9 +503,7 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Chicken Kabat
-                </h5>
+                <h5>Chicken Kabat</h5>
                 <h6>12.99</h6>
               </div>
               <div className="line-break" />
@@ -608,9 +514,7 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Fiery Spicy Fish
-                </h5>
+                <h5>Fiery Spicy Fish</h5>
                 <h6>12.99</h6>
               </div>
               <div className="line-break" />
@@ -621,23 +525,19 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Saucy Spicy (Beef / Chicken / Fish)
-                </h5>
+                <h5>Saucy Spicy (Beef / Chicken / Fish)</h5>
                 <h6>12.99</h6>
               </div>
               <div className="line-break" />
               <p>
                 stir fry with string beans, green and red peppers, yellow onion,
-                dried chili, sriracha hot chili sauce, house special sweet
-                sauce and choice of meat
+                dried chili, sriracha hot chili sauce, house special sweet sauce
+                and choice of meat
               </p>
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Saucy Spicy Shrimp
-                </h5>
+                <h5>Saucy Spicy Shrimp</h5>
                 <h6>13.99</h6>
               </div>
               <div className="line-break" />
@@ -649,9 +549,7 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Fried Noodle (Chicken / Pork / Vegetarian)
-                </h5>
+                <h5>Fried Noodle (Chicken / Pork / Vegetarian)</h5>
                 <h6>11.99</h6>
               </div>
               <div className="line-break" />
@@ -662,9 +560,7 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Fried Rice (Chicken / Pork / Shrimp / Vegetarian)
-                </h5>
+                <h5>Fried Rice (Chicken / Pork / Shrimp / Vegetarian)</h5>
                 <h6>11.99</h6>
               </div>
               <div className="line-break" />
@@ -675,15 +571,11 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Yellow Bean Fried Rice
-                </h5>
+                <h5>Yellow Bean Fried Rice</h5>
                 <h6>10.99</h6>
               </div>
               <div className="line-break" />
-              <p>
-                Jasmine rice fry with yellow pea, red onions and fried egg
-              </p>
+              <p>Jasmine rice fry with yellow pea, red onions and fried egg</p>
             </div>
           </div>
 
@@ -694,15 +586,11 @@ class Menu extends Component {
           <div className="menu-item-container">
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Yellow Bean Paratha
-                </h5>
+                <h5>Yellow Bean Paratha</h5>
                 <h6>6.99</h6>
               </div>
               <div className="line-break" />
-              <p>
-                Two paratha come with steam yellow bean as side dish
-              </p>
+              <p>Two paratha come with steam yellow bean as side dish</p>
             </div>
             <div className="food-items">
               <div className="item-name">
@@ -710,15 +598,11 @@ class Menu extends Component {
                 <h6>8.99</h6>
               </div>
               <div className="line-break" />
-              <p>
-                Two paratha come with chicken curry as side dish
-              </p>
+              <p>Two paratha come with chicken curry as side dish</p>
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Vegetable Biryani
-                </h5>
+                <h5>Vegetable Biryani</h5>
                 <h6>10.99</h6>
               </div>
               <div className="line-break" />
@@ -729,9 +613,7 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Pork Biryani
-                </h5>
+                <h5>Pork Biryani</h5>
                 <h6>6.99</h6>
               </div>
               <div className="line-break" />
@@ -742,9 +624,7 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Chicken Biryani
-                </h5>
+                <h5>Chicken Biryani</h5>
                 <h6>12.99</h6>
               </div>
               <div className="line-break" />
@@ -755,9 +635,7 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Beef Biryani
-                </h5>
+                <h5>Beef Biryani</h5>
                 <h6>13.99</h6>
               </div>
               <div className="line-break" />
@@ -768,9 +646,7 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Lamb Biryani
-                </h5>
+                <h5>Lamb Biryani</h5>
                 <h6>14.99</h6>
               </div>
               <div className="line-break" />
@@ -788,15 +664,11 @@ class Menu extends Component {
           <div className="menu-item-container">
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Jasmine Rice
-                </h5>
+                <h5>Jasmine Rice</h5>
                 <h6>2</h6>
               </div>
               <div className="line-break" />
-              <p>
-
-              </p>
+              <p />
             </div>
             <div className="food-items">
               <div className="item-name">
@@ -804,21 +676,15 @@ class Menu extends Component {
                 <h6>3</h6>
               </div>
               <div className="line-break" />
-              <p>
-
-              </p>
+              <p />
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Biryani Rice
-                </h5>
+                <h5>Biryani Rice</h5>
                 <h6>3</h6>
               </div>
               <div className="line-break" />
-              <p>
-
-              </p>
+              <p />
             </div>
           </div>
 
@@ -829,35 +695,29 @@ class Menu extends Component {
           <div className="menu-item-container">
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Dessert of the Day
-                </h5>
-                <h6></h6>
+                <h5>Dessert of the Day</h5>
+                <h6 />
               </div>
               <div className="line-break" />
-              <p>
-                Please ask server
-              </p>
+              <p>Please ask server</p>
             </div>
           </div>
 
           <div className="menu-header">
             <h2>Dessert + Drinks</h2>
             <h3>
-              Ask the server for availabilities. A refreshing milk drink flavored
-              with rose syrup, egg pudding, a scoop of vanilla ice cream and tapioca
-              pearls. Drinking Distilled Spirits, Beers, Coolers, Wines and other
-               Alcoholic Beverages May Increase Cancer Risk, and During pregnancy,
-               Can Cause Birth Defects
+              Ask the server for availabilities. A refreshing milk drink
+              flavored with rose syrup, egg pudding, a scoop of vanilla ice
+              cream and tapioca pearls. Drinking Distilled Spirits, Beers,
+              Coolers, Wines and other Alcoholic Beverages May Increase Cancer
+              Risk, and During pregnancy, Can Cause Birth Defects
             </h3>
           </div>
 
           <div className="menu-item-container">
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Burmese Milk Tea
-                </h5>
+                <h5>Burmese Milk Tea</h5>
                 <h6>2</h6>
               </div>
               <div className="line-break" />
@@ -872,21 +732,15 @@ class Menu extends Component {
                 <h6>3</h6>
               </div>
               <div className="line-break" />
-              <p>
-
-              </p>
+              <p />
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Mango Lassi
-                </h5>
+                <h5>Mango Lassi</h5>
                 <h6>5</h6>
               </div>
               <div className="line-break" />
-              <p>
-
-              </p>
+              <p />
             </div>
             <div className="food-items">
               <div className="item-name">
@@ -894,21 +748,15 @@ class Menu extends Component {
                 <h6>5</h6>
               </div>
               <div className="line-break" />
-              <p>
-
-              </p>
+              <p />
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Yogurt
-                </h5>
+                <h5>Yogurt</h5>
                 <h6>5</h6>
               </div>
               <div className="line-break" />
-              <p>
-
-              </p>
+              <p />
             </div>
             <div className="food-items">
               <div className="item-name">
@@ -916,21 +764,15 @@ class Menu extends Component {
                 <h6>4</h6>
               </div>
               <div className="line-break" />
-              <p>
-
-              </p>
+              <p />
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Falouda
-                </h5>
+                <h5>Falouda</h5>
                 <h6>6</h6>
               </div>
               <div className="line-break" />
-              <p>
-
-              </p>
+              <p />
             </div>
           </div>
 
@@ -941,39 +783,27 @@ class Menu extends Component {
           <div className="menu-item-container">
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Coke
-                </h5>
+                <h5>Coke</h5>
                 <h6>1</h6>
               </div>
               <div className="line-break" />
-              <p>
-
-              </p>
+              <p />
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Diet Coke
-                </h5>
+                <h5>Diet Coke</h5>
                 <h6>1</h6>
               </div>
               <div className="line-break" />
-              <p>
-
-              </p>
+              <p />
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Sprite
-                </h5>
+                <h5>Sprite</h5>
                 <h6>1</h6>
               </div>
               <div className="line-break" />
-              <p>
-
-              </p>
+              <p />
             </div>
           </div>
 
@@ -984,51 +814,35 @@ class Menu extends Component {
           <div className="menu-item-container">
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Myanmar Beer
-                </h5>
+                <h5>Myanmar Beer</h5>
                 <h6>4</h6>
               </div>
               <div className="line-break" />
-              <p>
-
-              </p>
+              <p />
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Heineken Beer
-                </h5>
+                <h5>Heineken Beer</h5>
                 <h6>3</h6>
               </div>
               <div className="line-break" />
-              <p>
-
-              </p>
+              <p />
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Modelo Beer
-                </h5>
+                <h5>Modelo Beer</h5>
                 <h6>3</h6>
               </div>
               <div className="line-break" />
-              <p>
-
-              </p>
+              <p />
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Tsingtao Beer
-                </h5>
+                <h5>Tsingtao Beer</h5>
                 <h6>3</h6>
               </div>
               <div className="line-break" />
-              <p>
-
-              </p>
+              <p />
             </div>
           </div>
 
@@ -1039,27 +853,19 @@ class Menu extends Component {
           <div className="menu-item-container">
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Bottle
-                </h5>
+                <h5>Bottle</h5>
                 <h6>20</h6>
               </div>
               <div className="line-break" />
-              <p>
-
-              </p>
+              <p />
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Glass
-                </h5>
+                <h5>Glass</h5>
                 <h6>5</h6>
               </div>
               <div className="line-break" />
-              <p>
-
-              </p>
+              <p />
             </div>
           </div>
 
@@ -1070,9 +876,7 @@ class Menu extends Component {
           <div className="menu-item-container">
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Bean Vermicelli Soup
-                </h5>
+                <h5>Bean Vermicelli Soup</h5>
                 <h6>9.99</h6>
               </div>
               <div className="line-break" />
@@ -1083,22 +887,19 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Hot Pot (Burmese Style)
-                </h5>
+                <h5>Hot Pot (Burmese Style)</h5>
                 <h6>9.99</h6>
               </div>
               <div className="line-break" />
               <p>
                 rice vermicelli pork broth with green mustard, boiled quail egg,
-                fish ball, pork meat ball and pork intestine with house special sauce
+                fish ball, pork meat ball and pork intestine with house special
+                sauce
               </p>
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Tapioca Noodle Soup (Chicken, Pork)
-                </h5>
+                <h5>Tapioca Noodle Soup (Chicken, Pork)</h5>
                 <h6>9.99</h6>
               </div>
               <div className="line-break" />
@@ -1109,22 +910,19 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Hta Min Paung (Chicken or Pork)
-                </h5>
+                <h5>Hta Min Paung (Chicken or Pork)</h5>
                 <h6>11.99</h6>
               </div>
               <div className="line-break" />
               <p>
-                steamed rice, tapioca starch, mushroom, napa cabbage, cauliflower,
-                broccoli, carrot, cabbage, quail egg and your choice of meat
+                steamed rice, tapioca starch, mushroom, napa cabbage,
+                cauliflower, broccoli, carrot, cabbage, quail egg and your
+                choice of meat
               </p>
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Tea Leaf Rice Salad
-                </h5>
+                <h5>Tea Leaf Rice Salad</h5>
                 <h6>11.99</h6>
               </div>
               <div className="line-break" />
@@ -1135,21 +933,15 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Tea Leaf Fried Rice with Shrimp
-                </h5>
+                <h5>Tea Leaf Fried Rice with Shrimp</h5>
                 <h6>12.99</h6>
               </div>
               <div className="line-break" />
-              <p>
-                tea leaf, steamed rice, tomato, garlic, fried egg on top
-              </p>
+              <p>tea leaf, steamed rice, tomato, garlic, fried egg on top</p>
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Fried Vermicelli (Chicken, Pork, Shrimp)
-                </h5>
+                <h5>Fried Vermicelli (Chicken, Pork, Shrimp)</h5>
                 <h6>11.99</h6>
               </div>
               <div className="line-break" />
@@ -1160,21 +952,15 @@ class Menu extends Component {
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Fried Sour Leaf
-                </h5>
+                <h5>Fried Sour Leaf</h5>
                 <h6>6.99</h6>
               </div>
               <div className="line-break" />
-              <p>
-                sour leaf, bamboo shoot, shrimp with house special sauce
-              </p>
+              <p>sour leaf, bamboo shoot, shrimp with house special sauce</p>
             </div>
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Yellow Tofu Salad
-                </h5>
+                <h5>Yellow Tofu Salad</h5>
                 <h6>9.99</h6>
               </div>
               <div className="line-break" />
@@ -1192,18 +978,13 @@ class Menu extends Component {
           <div className="menu-item-container">
             <div className="food-items">
               <div className="item-name">
-                <h5>
-                  Rice with Curry (Chicken, Beef, Pork)
-                </h5>
+                <h5>Rice with Curry (Chicken, Beef, Pork)</h5>
                 <h6>8.99</h6>
               </div>
               <div className="line-break" />
-              <p>
-
-              </p>
+              <p />
             </div>
           </div>
-
         </div>
       </>
     );
