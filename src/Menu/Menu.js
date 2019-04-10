@@ -325,7 +325,7 @@ class Menu extends Component {
           </div>
 
           <div className="menu-header">
-            <h2>Noodles</h2>
+            <h2>Noodles (All Noodles will serve with House Special Chicken Broth)</h2>
           </div>
 
           <div className="menu-item-container">
@@ -843,6 +843,13 @@ class Menu extends Component {
 
           <div className="menu-header">
             <h2>Dessert + Drinks</h2>
+            <h3>
+              Ask the server for availabilities. A refreshing milk drink flavored
+              with rose syrup, egg pudding, a scoop of vanilla ice cream and tapioca
+              pearls. Drinking Distilled Spirits, Beers, Coolers, Wines and other
+               Alcoholic Beverages May Increase Cancer Risk, and During pregnancy,
+               Can Cause Birth Defects
+            </h3>
           </div>
 
           <div className="menu-item-container">
