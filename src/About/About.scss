@@ -12,13 +12,14 @@
         flex-direction: column;
         width: 100%;
         h1 {
-          color: orange;
+          color: #FFCA56;
           font-family: "Staatliches", cursive;
           font-size: 35px;
           width: 80%;
           text-align: center;
         }
         p {
+          color: #AD463D;
           width: 80%;
           font-family: "Overpass", sans-serif;
           font-size: 20px;
@@ -29,7 +30,7 @@
         padding-top: 40px;
         margin-bottom: 40px;
         width: 100px;
-        border-bottom: 4px solid maroon;
+        border-bottom: 4px solid #AD463D;
       }
       .text-about-image {
         width: 100%;
@@ -46,7 +47,7 @@
 
   .gallery-about-container {
     width: 100%;
-    background-color: gold;
+    background-color: #EDBA96;
     padding: 50px 0;
     display: flex;
     margin: 0 auto;
@@ -54,7 +55,7 @@
     justify-content: center;
     align-items: center;
     h1 {
-      color: black;
+      color: #AD463D;
       font-family: "Staatliches", cursive;
       font-size: 40px;
       padding: 20px;

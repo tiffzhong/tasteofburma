@@ -1,5 +1,5 @@
 .menu-container {
-  background: lightgray;
+  background: #EFE4DC;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,23 +32,32 @@
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
-      border: 1px solid black;
       width: 30%;
       padding: 10px;
       .item-name {
-        display: flex;
+        display: block;
+        font-weight: bold;
+        text-transform: uppercase;
         h5 {
+          color: maroon;
           font-size: 20px;
+        }
+        h6 {
+          color: #AD463D;
+          font-size: 16px;
+          padding-top: 5px;
         }
       }
       p {
-        font-size: 18px;
+        color: #444;
+        font-size: 16px;
+        text-transform: lowercase;
       }
       .line-break {
         padding-top: 10px;
         margin-bottom: 10px;
-        width: 30px;
-        border-bottom: 2px solid maroon;
+        width: 100px;
+        border-bottom: 2px dashed #444;
       }
     }
   }
