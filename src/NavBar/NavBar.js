@@ -26,10 +26,18 @@ class NavBar extends Component {
             <button onClick={this.toggle}>&times;</button>
 
             <div className="nav-links">
-              <Link to="/">Home</Link>
-              <Link to="/menu">Menu</Link>
-              <Link to="/about">About</Link>
-              <Link to="/contact">Contact</Link>
+              <Link to="/" onClick={this.toggle}>
+                Home
+              </Link>
+              <Link to="/menu" onClick={this.toggle}>
+                Menu
+              </Link>
+              <Link to="/about" onClick={this.toggle}>
+                About
+              </Link>
+              <Link to="/contact" onClick={this.toggle}>
+                Contact
+              </Link>
             </div>
           </div>
         ) : (

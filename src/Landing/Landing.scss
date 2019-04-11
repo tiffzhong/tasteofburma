@@ -1,41 +1,4 @@
 .landing-container {
-  // .nav-landing {
-  //   .drawerHidden {
-  //     font-family: "Overpass", sans-serif;
-  //     width: 100%;
-  //     position: fixed;
-  //     font-size: 20px;
-  //     z-index: 10;
-  //     height: 60px;
-  //     display: flex;
-  //     align-items: center;
-  //     background-color: #ad463d;
-  //     padding-left: 30px;
-  //   }
-  //   div {
-  //     padding-right: 35px;
-  //     display: flex;
-  //     justify-content: space-between;
-  //     button {
-  //       display: none;
-  //     }
-  //   }
-  //   a {
-  //     text-decoration: none;
-  //     color: black;
-  //     text-transform: uppercase;
-  //     font-weight: bold;
-  //     display: flex;
-  //     align-items: center;
-  //     margin: 10px;
-  //     padding-right: 20px;
-  //     font-size: 15px;
-  //     &:hover {
-  //       color: #ffca56;
-  //     }
-  //   }
-  // }
-  // *****
   .first-view {
     background-image: url(./landing.jpg);
     width: 100%;
@@ -69,76 +32,6 @@
     padding: 50px 0;
   }
 }
-
-// @media (max-width: 700px) {
-//   .landing-container {
-//     .nav-landing {
-//       div {
-//         button {
-//           display: initial;
-//           right: 40px;
-//           border: none;
-//           font-size: 25px;
-//           height: 40px;
-//           position: relative;
-//           z-index: 2;
-//           background: transparent;
-//           border: none;
-//           color: white;
-//           &:hover {
-//             color: black;
-//           }
-//         }
-//       }
-//     }
-
-//     .drawerOpen {
-//       transition-property: transform, visibility;
-//       transition-duration: 500ms;
-//       transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-//       background: white;
-//       opacity: 0.95;
-//       height: 100vh;
-//       width: 100%;
-//       transition: 0.5s;
-//       display: flex;
-//       align-items: flex-start;
-//       position: fixed;
-//       z-index: 150;
-//       button {
-//         display: flex;
-//         position: inherit;
-//         top: 5px;
-//         right: 20px;
-//         font-size: 40px;
-//         padding: 0;
-//         color: black;
-//         z-index: 1050;
-//         &:hover {
-//           color: #ad463d;
-//         }
-//       }
-//       .nav-links {
-//         transition: 0.3s;
-//         width: 100%;
-//         padding-top: 40px;
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//         z-index: 1000;
-//         a {
-//           padding: 10px;
-//         }
-//       }
-//     }
-//     // }
-//     .drawerHidden {
-//       .nav-links {
-//         display: none;
-//       }
-//     }
-//   }
-// }
 
 @media (max-width: 400px) {
   .landing-container {
