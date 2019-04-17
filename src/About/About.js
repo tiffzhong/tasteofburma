@@ -27,7 +27,7 @@ class About extends Component {
             </section>
           </div>
           <div className="gallery-about-container">
-            <h1> Gallery</h1>
+            <h1>JOIN US!</h1>
 
             <div>
               <img src={image1} alt="about" />
