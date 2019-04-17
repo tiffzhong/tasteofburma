@@ -4,11 +4,11 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 80px;
+  padding-top: 5em;
   h1 {
     font-family: "Staatliches", cursive;
-    font-size: 40px;
-    padding-bottom: 30px;
+    font-size: 2.5em;
+    padding-bottom: 1.9em;
   }
   .menu-header {
     display: flex;
@@ -18,8 +18,8 @@
     border-bottom: 2px solid maroon;
     h2 {
       font-family: "Staatliches", cursive;
-      padding-bottom: 10px;
-      font-size: 20px;
+      padding-bottom: 0.6em;
+      font-size: 1.25em;
     }
   }
   .menu-item-container {
@@ -27,36 +27,36 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 1.25em;
     .food-items {
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
       width: 30%;
-      padding: 10px;
+      padding: 0.6em;
       .item-name {
         display: block;
         font-weight: bold;
         text-transform: uppercase;
         h5 {
           color: maroon;
-          font-size: 20px;
+          font-size: 1.25em;
         }
         h6 {
           color: #AD463D;
-          font-size: 16px;
-          padding-top: 5px;
+          font-size: 1em;
+          padding-top: 0.3em;
         }
       }
       p {
         color: #444;
-        font-size: 16px;
+        font-size: 1em;
         text-transform: lowercase;
       }
       .line-break {
-        padding-top: 10px;
-        margin-bottom: 10px;
-        width: 100px;
+        padding-top: 0.6em;
+        margin-bottom: 0.6em;
+        width: 6.25em;
         border-bottom: 2px dashed #444;
       }
     }

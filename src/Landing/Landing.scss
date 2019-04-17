@@ -15,21 +15,21 @@
     h1 {
       text-align: center;
       font-family: "Staatliches", cursive;
-      font-size: 80px;
+      font-size: 5em;
       color: #fff;
       text-shadow: black 2px 2px 30px;
-      padding-bottom: 20px;
+      padding-bottom: 0.25em;
     }
     h6 {
       font-family: "Overpass", sans-serif;
       color: #f8a234;
-      font-size: 45px;
+      font-size: 2.9em;
       font-weight: bold;
       text-shadow: black 2px 2px 20px;
     }
   }
   .third-view {
-    padding: 50px 0;
+    padding: 3.1em 0;
   }
 }
 
@@ -37,10 +37,10 @@
   .landing-container {
     .first-view {
       h1 {
-        font-size: 60px;
+        font-size: 3.75em;
       }
       h6 {
-        font-size: 40px;
+        font-size: 2.5em
       }
     }
   }
